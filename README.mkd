@@ -1,0 +1,21 @@
+
+To install:
+
+    yarn install
+
+Run the webpack server:
+
+    webpack-dev-server --progress --colors --inline --hot
+
+then go to http://localhost:8080
+
+
+## Tools
+
+google plugins
+
+React -
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+
+Redux -
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
