@@ -6,6 +6,9 @@ module.exports = {
         "./lib/Xmas/index.js"
     ],
     resolve: {
+        alias: {
+            'vue$': 'vue/dist/vue.common.js'
+        },
         root: [ path.resolve(__dirname, 'lib' ), path.resolve('.'), path.resolve('./lib'), path.resolve('../lib'), path.resolve('../stories') ]
     },
     output: {
