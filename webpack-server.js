@@ -5,6 +5,7 @@ config.entry.app = [ "webpack-dev-server/client?http://localhost:8080/", "webpac
 var compiler = webpack(config);
 
 var server = new webpackDevServer(compiler, {
-      hot: true
+      hot: true,
+      inline: true
 });
 server.listen(8080)
