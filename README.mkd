@@ -19,3 +19,6 @@ https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopl
 
 Redux -
 https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+
+Vuejs - 
+https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd/related
