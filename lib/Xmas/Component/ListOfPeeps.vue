@@ -5,7 +5,9 @@
         <li><input placeholder="new giftee" v-model="name" @change="add_giftee" /></li>
 
         <li v-for="giftee in giftees">
-            {{ giftee.name }}
+            <router-link :to="{ name: 'giftee', params: { giftee: giftee.name } }">
+                {{ giftee.name }}
+            </router-link>
             <input type="button" value="remove" @click="remove_giftee( giftee.name )" />
         </li>
     </ul>
